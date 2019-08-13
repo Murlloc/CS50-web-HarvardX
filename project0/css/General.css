@@ -16,3 +16,27 @@ html,body{
 #container{
     padding: 25px;
 }
+.h1worlds{
+    padding: 25px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+}
+#pandora{
+    text-align: center;
+    font-family: cup_and_talonregular;
+    font-size: 25px;
+}
+#pandoraimg{
+    margin-left: 25%;
+    max-width:100%;
+    height: auto;
+}
+@font-face {
+    font-family: 'cup_and_talonregular';
+    src: url('../fonts/cup_and_talon-webfont.woff2') format('woff2'),
+         url('../fonts/cup_and_talon-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
