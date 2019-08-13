@@ -12,7 +12,10 @@ html,body{
     font-size: 20px;
     color: silver;
 }
-
+p{
+    font-family: cup_and_talonregular;
+    font-size: 20px;
+}
 #container{
     padding: 25px;
 }
