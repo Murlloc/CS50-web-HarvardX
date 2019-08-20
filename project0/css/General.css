@@ -3,7 +3,11 @@ html,body{
     background-color: white;
     background-size: 100%;
 }
-
+.home{
+    margin-top: 85px;
+    margin-left: auto;
+    margin-right: auto;
+}
 p{
     font-family: cup_and_talonregular;
     font-size: 20px;
