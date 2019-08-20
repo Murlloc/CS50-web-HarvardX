@@ -1,0 +1,35 @@
+$silver-worlds: rgba(192,192,192 ,0.35);
+$silver-char: rgba(192,192,192 ,0.75);
+$dead-color: rgba(black, 0.25);
+.nav{
+    margin-top: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    .nav-link{
+        font-size: 20px;
+        color: silver;
+    }
+    .nav-link:hover{
+        background-color: $silver-worlds;
+        color: blue;
+    }
+}
+.world{
+    background-color: $silver-worlds;
+}
+.char{
+    background-color: $silver-char;
+
+}
+.dead:hover{
+    background-color: $dead-color;
+    color:white;
+}
+%message-shared {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: red;
+  }
+.error{
+    @extend %message-shared;
+}

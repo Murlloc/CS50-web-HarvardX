@@ -3,15 +3,7 @@ html,body{
     background-color: white;
     background-size: 100%;
 }
-.nav{
-    margin-top: 85px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.nav-link{
-    font-size: 20px;
-    color: silver;
-}
+
 p{
     font-family: cup_and_talonregular;
     font-size: 20px;
@@ -31,7 +23,7 @@ p{
     font-size: 25px;
 }
 #pandoraimg{
-    margin-left: 25%;
+    margin-left: 15%;
     max-width:100%;
     height: auto;
 }
